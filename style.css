@@ -163,6 +163,7 @@ body {
 }
 .header {
   display: flex;
+  justify-content: center;
   padding: 5px;
 }
 .header a {
@@ -175,6 +176,7 @@ body {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 2rem;
+  padding-left: 10px;
 }
 .container-2 .header h1 > span {
   position: relative;
