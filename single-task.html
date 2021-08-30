@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Single Task</title>
+  </head>
+  <body>
+    <div class="container-2" id="container-2">
+      <header class="header">
+        <a class="btn-back btn-back-mb" href="./index.html"
+          ><i class="fas fa-arrow-circle-left"></i
+        ></a>
+        <div class="header-title-2">
+          <h1><span>sample task list</span></h1>
+        </div>
+      </header>
+      <main class="main-content-2">
+        <a class="btn-back btn-back-bg" href="./index.html"
+          ><i class="fas fa-arrow-circle-left"></i> Back</a
+        >
+        <div class="task-list2">
+          <h2 class="task-list-heading2">trip to paris</h2>
+          <ul class="task-list-items2">
+            <li class="task-list-item2 completed2">
+              <input type="checkbox" /><label
+                >&nbsp;&nbsp;completed task</label
+              >
+            </li>
+            <li class="task-list-item2">
+              <input type="checkbox" /><label>pending task</label>
+            </li>
+          </ul>
+          <div class="task-list-addbtn2" id="task-add-btn">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="modal-bg" id="modal-bg">
+      <div class="modal">
+        <form class="form">
+          <div class="form-sec">
+            <label for="new-list">Add New Item</label>
+            <input type="text" name="new-list" id="new-list" />
+          </div>
+          <div class="form-btn-add">
+            <input type="submit" value="add" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/d494895170.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script2.js"></script>
+  </body>
+</html>

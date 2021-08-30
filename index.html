@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <header class="main-header">
+        <div class="header-title">
+          <h1>task <span class="light">lists</span></h1>
+        </div>
+        <div class="header-actions" id="task-list-add-btn">
+          <i class="fas fa-plus-circle"></i><span>add list</span>
+        </div>
+        <!--  -->
+      </header>
+      <main class="main-content">
+        <div class="task-lists">
+          <!-- 1st task -->
+          <div class="task-list task-list-card">
+            <h2 class="task-list-heading">trip to paris</h2>
+            <ul class="task-list-items">
+              <li class="task-list-item completed">
+                <input type="checkbox" /><label
+                  >&nbsp;&nbsp;completed task</label
+                >
+              </li>
+              <li class="task-list-item">
+                <input type="checkbox" /><label>pending task</label>
+              </li>
+            </ul>
+          </div>
+          <!-- 2nd task -->
+          <div class="task-list task-list-card">
+            <h2 class="task-list-heading">my todo list</h2>
+            <ul class="task-list-items">
+              <li class="task-list-item completed">
+                <input type="checkbox" /><label
+                  >&nbsp;&nbsp;completed task</label
+                >
+              </li>
+              <li class="task-list-item">
+                <input type="checkbox" /><label>pending task</label>
+              </li>
+            </ul>
+          </div>
+          <!-- 3rd task -->
+          <div class="task-list task-list-card">
+            <h2 class="task-list-heading">my todo list2</h2>
+            <ul class="task-list-items">
+              <li class="task-list-item completed">
+                <input type="checkbox" /><label
+                  >&nbsp;&nbsp;completed task</label
+                >
+              </li>
+              <li class="task-list-item">
+                <input type="checkbox" /><label>pending task</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="modal-bg" id="modal-bg">
+      <div class="modal">
+        <form class="form">
+          <div class="form-sec">
+            <label for="new-list">Add New List</label>
+            <input type="text" name="new-list" id="new-list" />
+          </div>
+          <div class="form-btn-add">
+            <input type="submit" value="add" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/d494895170.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script1.js"></script>
+  </body>
+</html>
