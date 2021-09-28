@@ -20,5 +20,3 @@ for (let e of tasklists) {
     location.replace('./single-task.html');
   });
 }
-
-console.log(tasklists);
